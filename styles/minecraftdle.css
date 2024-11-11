@@ -1,0 +1,130 @@
+html, body {
+  height: 100%;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  border: solid;
+  border-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle-container {
+  border: solid;
+  border-color: blue;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  
+  height: 20%;
+  border: solid;
+  border-color: green;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-container {
+  height: 80%;
+  border: solid;
+  border-color: rgb(183, 43, 131);
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 925px;
+  height: 125px;
+  order: 2;
+}
+
+.minecraftdle-logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.language-container {
+  width: 80px;
+  height: 80px;
+  order: 3;
+}
+
+.language-icon {
+  max-width: 100%;
+  max-height: 100%;
+  order: 1;
+}
+
+.settings-container {
+  width: 80px;
+  height: 80px;
+}
+
+.settings-icon {
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+
+.classic-mode-container,
+.mobs-mode-container,
+.items-mode-container {
+  border: solid;
+  border-color: brown;
+  width: 330px;
+  height: 90px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.classic-mode-icon,
+.mobs-mode-icon,
+.items-mode-icon {
+  border: solid;
+  color: yellowgreen;
+  width: 25%;
+  height: 100%;
+  display: flex;
+}
+
+.classic-mode-text,
+.mobs-mode-text,
+.items-mode-text {
+  border: solid;
+  border-color: green;
+  display: flex;
+  width: 75%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.classic-mode-link-icon,
+.mobs-mode-link,
+.items-mode-link {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.classic-mode-icon-img,
+.mobs-mode-icon-img,
+.items-mode-icon-img {
+  max-width: 100%;
+  max-height: 80%;
+}
