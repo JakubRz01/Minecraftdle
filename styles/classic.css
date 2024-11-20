@@ -1,10 +1,20 @@
-html, body {
-  height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  border: 2px solid black;
 }
 
 .main-container {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   border: solid;
   border-color: red;
   display: flex;
@@ -32,7 +42,7 @@ html, body {
 }
 
 .menu-container {
-  height: 80%;
+  min-height: 76vh;
   border: solid;
   border-color: rgb(183, 43, 131);
   margin: 3px;
@@ -77,10 +87,9 @@ html, body {
   max-height: 100%;
 }
 
-.input-container {
-  margin-top: 60px;
+.list-container {
   position: relative;
-  width: 500px;
+  width: 30%;
 }
 
 .blocks-input {
@@ -119,5 +128,88 @@ html, body {
   height: 50px;
 }
 
+.chosen-blocks-container {
+  margin-top: 1vh;
+  width: 100%;
+  height: 12vh;
+  display: inline-flex;
+  align-items: center;
+}
 
+.chosen-blocks-name-container {
+  border: solid yellow;
+  width: 68%;
+  height: 4vh;
+  margin-top: 19vh;
+  display: inline-flex;
+  align-items: center;
+}
+
+.individual-block-container {
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+  margin: 10px 10px 10px 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.guessing-container {
+  width: 68%;
+  min-height: 30vh;
+  max-height: none;
+  border: solid brown;
+  display: flex;
+  flex-direction: column;
+}
+
+.individual-block-container p {
+  margin: 0;
+}
+
+.individual-block-container-true {
+  background-image: url("../images/true-bg.png");
+  background-size: 100%;
+}
+
+.individual-block-container-false {
+  background-image: url("../images/false-bg.png");
+  background-size: 100%;
+}
+
+.individual-block-container-mixed {
+  background-image: url("../images/mixed-bg.png");
+  background-size: 100%;
+}
+
+.individual-name-container {
+  border: solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: 10px 10px 10px 10px;
+  width: 8%;
+  height: 76%;
+}
+
+.visible-input-menu-container {
+  margin-top: 60px;
+  position: relative;
+  display: inline-flex;
+  width: 30%;
+}
+
+.press-button {
+  width: 15%;
+}
+
+.displayed-block-image {
+  width: 100px;
+  height: 100px;
+}
 

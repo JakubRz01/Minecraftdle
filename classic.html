@@ -25,10 +25,27 @@
     <div class="subtitle-container">Odgadnij dzisiejszy blok z minecrafta, wpisz nazwę dowolnego bloku poniżej, aby zacząć
     </div>
     <div class="menu-container">
-      <div class="input-container">
+      <div class="visible-input-menu-container">
         <input type = "text" class="blocks-input js-blocks-input" placeholder="Wpisz nazwę bloku">
+        <button class="press-button js-press-button">Press</button>
+      </div>
+      <div class="list-container">
         <div class="autocomplete-list js-autocomplete-list"></div>
       </div>
+      <div class="chosen-blocks-name-container">
+        <div class="individual-name-container">Image</div>
+        <div class="individual-name-container">Color</div>
+        <div class="individual-name-container">Craftable</div>
+        <div class="individual-name-container">Realm</div>
+        <div class="individual-name-container">Tool</div>
+        <div class="individual-name-container">Version</div>
+        <div class="individual-name-container">Renewable</div>
+        <div class="individual-name-container">Flammable</div>
+        <div class="individual-name-container">Variant</div>
+      </div>
+      <div class="guessing-container js-guessing-container">
+      </div>
+      
     </div>
   </div>
   <script type="module" src="scripts/classic.js"></script>

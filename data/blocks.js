@@ -1,62 +1,182 @@
 export const blocks = [
   {
     name: 'Air',
-    image: 'images/block-images/Air.webp'
+    image: 'images/block-images/Air.webp',
+    color: ['None','',''],
+    craftable: 'No',
+    realm: ['Overworld','Nether','End'],
+    tool: 'None',
+    version: '1.7.2',
+    renewable: 'No',
+    flammable: 'No',
+    variant: ['None','','']
   },
   {
     name: 'Stone',
-    image: ''
+    image: 'images/block-images/Stone.webp',
+    color: ['Grey','',''],
+    craftable: 'No',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: 'pre-Classic',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Default','']
   },
   {
     name: 'Granite',
-    image: ''
+    image: 'images/block-images/Granite.webp',
+    color: ['Pinkish','',''],
+    craftable: 'Yes',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: '1.8',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Default','']
   },
   {
     name: 'Polished Granite',
-    image: ''
+    image: 'images/block-images/Polished-Granite.webp',
+    color: ['Pinkish','',''],
+    craftable: 'Yes',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: '1.8',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Polished','']
   },
   {
     name: 'Diorite',
-    image: ''
+    image: '/images/block-images/Diorite.webp',
+    color: ['White','Grey',''],
+    craftable: 'Yes',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: '1.8',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Default','']
   },
   {
     name: 'Polished Diorite',
-    image: ''
+    image: '/images/block-images/Polished-Diorite.webp',
+    color: ['White','Grey',''],
+    craftable: 'Yes',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: '1.8',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Polished','']
   },
   {
     name: 'Andesite',
-    image: 'images/block-images/Andesite.webp'
+    image: 'images/block-images/Andesite.webp',
+    color: ['Grey','',''],
+    craftable: 'Yes',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: '1.8',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Default','']
   },
   {
     name: 'Polished Andesite',
-    image: ''
+    image: '/images/block-images/Polished-Andesite.webp',
+    color: ['Grey','',''],
+    craftable: 'Yes',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: '1.8',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Polished','']
   },
   {
-    name: 'Grass',
-    image: ''
+    name: 'Grass Block',
+    image: '/images/block-images/Grass-Block.webp',
+    color: ['Brown','Green',''],
+    craftable: 'No',
+    realm: ['Overworld','',''],
+    tool: 'Shovel',
+    version: 'pre-Classic',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Default','']
   },
   {
     name: 'Dirt',
-    image: ''
+    image: '/images/block-images/Dirt.webp',
+    color: ['Brown','',''],
+    craftable: 'No',
+    realm: ['Overworld','',''],
+    tool: 'Shovel',
+    version: 'pre-Classic',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Default','']
   },
   {
-    name: 'Dark Oak Wood Plank',
-    image: ''
+    name: 'Dark Oak Planks',
+    image: '/images/block-images/Dark-Oak-Planks.webp',
+    color: ['Dark Brown','',''],
+    craftable: 'Yes',
+    realm: ['Overworld','',''], 
+    tool: 'Axe',
+    version: '1.7.2',
+    renewable: 'Yes',
+    flammable: 'Yes',
+    variant: ['Block','Plank','Dark']
   },
   {
     name: 'Dispenser',
-    image: ''
+    image: '/images/block-images/Dispenser.webp',
+    color: ['Grey','',''],
+    craftable: 'Yes',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: '1.2',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Storage','']
   },
   {
-    name: 'Detector Rail',
-    image: ''
+    name: 'Deepslate',
+    image: '/images/block-images/Deepslate.webp',
+    color: ['Dark Grey','',''],
+    craftable: 'No',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: '1.17',
+    renewable: 'No',
+    flammable: 'No',
+    variant: ['Block','Default','']
   },
   {
-    name: 'Dead Shrub',
-    image: ''
+    name: 'Diamond Ore',
+    image: '/images/block-images/Diamond-Ore.webp',
+    color: ['Grey','Light Blue',''],
+    craftable: 'No',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: 'Pre-Classic',
+    renewable: 'No',
+    flammable: 'No',
+    variant: ['Block','Default','']
   },
   {
-    name: 'Dead Bush',
-    image: ''
+    name: 'Dripstone Block',
+    image: '/images/block-images/Dripstone-Block.webp',
+    color: ['Brown','',''],
+    craftable: 'Yes',
+    realm: ['Overworld','',''],
+    tool: 'Pickaxe',
+    version: '1.17',
+    renewable: 'Yes',
+    flammable: 'No',
+    variant: ['Block','Default','']
   }
 ];
