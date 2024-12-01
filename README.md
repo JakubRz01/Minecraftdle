@@ -1,18 +1,18 @@
 # Minecraftdle
 
- Minecrafdle is a fun and addictive word guessing game inspired by the popular browser game *Wordle*, with a unique twist for *Minecraft* fans! In this game, players must guess a hidden block, item or mob (depending on the game mode) related to the world of *Minecraft* in a certain number of attempts. Each guess gives feedback in the form of colored tiles that indicate how close the guesser is to the hidden object.
+ Minecrafdle is a fun and addictive word guessing game inspired by the popular browser game *Wordle*, with a unique twist for *Minecraft* fans! In this game, players must guess a hidden block, item or mob (depending on the game mode) related to the world of *Minecraft*. Each guess gives feedback in the form of colored tiles that indicate how close the guesser is to the hidden object.
 
 ## Table of Contents
-- [`About`](##About)
-- [`Gameplay`](##Gameplay)
-- [`Features`](##Features)
-- [`How to play`](##Howtoplay)
-- [`Instalation`](##Instalation)
-- [`Technologies Used`](##TechnologiesUsed)
-- [`Documentation`](##Documentation)
-- [`Patch notes`](##Patchnotes)
-- [`Known Issues`](##KnownIssues)
-- [`Roadmap`](##Roadmap)
+- [About](##About)
+- [Gameplay](##Gameplay)
+- [Features](##Features)
+- [How to play](##Howtoplay)
+- [Instalation](##Instalation)
+- [Technologies Used](##TechnologiesUsed)
+- [Documentation](##Documentation)
+- [Patch notes](##Patchnotes)
+- [Known Issues](##KnownIssues)
+- [Roadmap](##Roadmap)
 
 ## About
 
@@ -25,6 +25,8 @@ Minecrafdle blends the popular mechanics of *Wordle* with the creative and adven
 ## Gameplay
 
 There are 3 game modes in the game:
+
+---
 
 >### Blocks
 
@@ -82,7 +84,7 @@ To run Minecrafdle locally on your device, follow these steps:
 
     ``cd minecrafdle``
 
-3. Open ``index.html`` in your web browser to start playing.
+3. Open ``minecraftdle.html`` in your web browser to start playing.
 
 ## Technologies Used
 
