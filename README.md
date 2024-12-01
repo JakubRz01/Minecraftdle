@@ -6,12 +6,12 @@
 - [About](#About)
 - [Gameplay](#Gameplay)
 - [Features](#Features)
-- [How to play](#Howtoplay)
+- [How to play](#How-to-play)
 - [Instalation](#Instalation)
-- [Technologies Used](#TechnologiesUsed)
+- [Technologies Used](#Technologies-Used)
 - [Documentation](#Documentation)
-- [Patch notes](#Patchnotes)
-- [Known Issues](#KnownIssues)
+- [Patch notes](#Patch-notes)
+- [Known Issues](#Known-Issues)
 - [Roadmap](#Roadmap)
 
 ## About
